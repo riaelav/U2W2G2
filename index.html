@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="text-body-secondary">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <img src="./assets/img/logo.jpeg" alt="traver.logo" width="80" height="80" />
@@ -29,19 +29,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-body-secondary" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Saldi</a>
+              <a class="nav-link active text-body-secondary" aria-current="page" href="#">Saldi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Welcome Summer</a>
+              <a class="nav-link active text-body-secondary" aria-current="page" href="#">Welcome Summer</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Last Minute</a>
+              <a class="nav-link active text-body-secondary" aria-current="page" href="#">Last Minute</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Recensioni</a>
+              <a class="nav-link active text-body-secondary" aria-current="page" href="#">Recensioni</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -53,18 +53,18 @@
     </nav>
     <!--sezione hero-->
     <div class="container">
-      <div class="hero bg-body-tertiary rounded p-3 my-3">
+      <div class="hero bg-body-tertiary rounded shadow-sm p-3 my-3">
         <div class="d-flex p-3" style="align-items: anchor-center">
-          <h1 style="font-size: 4rem">Eveline-R</h1>
+          <h1 style="font-size: 4rem; font-weight: 300">My Travels</h1>
           <p class="lead mt-3">- Feel the Freedom</p>
         </div>
         <div class="border-top p-3">
-          <h2 class="fs-3"><em>Scopri le destinazioni più calde del momento!</em></h2>
+          <h2 class="fs-3" style="font-weight: 100"><em>Scopri le destinazioni del momento!</em></h2>
 
           <button type="button" class="btn btn-info btn-lg text-light mt-3">Prenota ora</button>
         </div>
       </div>
-      <h5 class="mt-5">Saldi</h5>
+      <h5 class="mt-5 p-2">Saldi</h5>
       <!--prima riga di card-->
       <div class="row mt-5">
         <div class="col-lg-3">
@@ -111,7 +111,7 @@
       <!--seconda serie di card-->
       <div class="row gy-3 mt-3">
         <div class="col-lg-4">
-          <div class="card shadow p-3">
+          <div class="card shadow">
             <img src="./assets/img/maldive.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -121,7 +121,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card shadow p-3">
+          <div class="card shadow">
             <img src="./assets/img/maldive.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -131,7 +131,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card shadow p-3">
+          <div class="card shadow">
             <img src="./assets/img/maldive.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -141,7 +141,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card shadow p-3">
+          <div class="card shadow">
             <img src="./assets/img/maldive.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -151,7 +151,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card shadow p-3">
+          <div class="card shadow">
             <img src="./assets/img/maldive.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -161,7 +161,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card shadow p-3">
+          <div class="card shadow">
             <img src="./assets/img/maldive.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -172,24 +172,25 @@
         </div>
       </div>
       <h5 class="mt-5">Offerta del giorno</h5>
+      <!--sezione a due colonne-->
       <div class="row mt-5 mb-5">
-        <div class="col-lg-8"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg p-3" /></div>
+        <div class="col-lg-6"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg" /></div>
         <div class="col-lg-4">
           <h2>Maldives</h2>
           <p>
             Ville a partire da 500$ <br />
             non fartele sfuggire!
           </p>
-          <button type="button" class="btn btn-dark rounded">Best offer</button>
+          <span class="badge rounded-pill text-bg-dark p-2">Best offer</span>
         </div>
         <!--sezione di immagini-->
         <div class="row mt-5">
-          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg p-3" /></div>
-          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg p-3" /></div>
-          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg p-3" /></div>
-          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg p-3" /></div>
-          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg p-3" /></div>
-          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg p-3" /></div>
+          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg" /></div>
+          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg" /></div>
+          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg" /></div>
+          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg" /></div>
+          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg" /></div>
+          <div class="col-lg-2"><img src="./assets/img/maldive.jpg" alt="maldive" class="img-fluid rounded shadow-lg" /></div>
         </div>
       </div>
     </div>
